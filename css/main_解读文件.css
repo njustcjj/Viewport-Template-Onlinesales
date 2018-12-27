@@ -1,0 +1,46 @@
+html{-webkit-tap-highlight-color:transparent;-webkit-overflow-scrolling:touch;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:-ms-autohiding-scrollbar}
+body{background-color:#434343}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+
+.ag7-main{padding-top: 60px; width: 600px; margin: 0 auto; padding-bottom: 70px}
+<!-- .ag7-main 设置整个切换窗口的边框属性，padding 内边距, margin 外边距-->
+<!--改-->
+
+.ag7-main .phone-index-banner{display:none}
+.ag7-bannerslide{position:relative;margin-bottom:50px}
+<!-- .ag7-bannerslide 设置这个切换窗口的外边距-->
+<!--改-->
+
+.ag7-bannerslide .slidebox{position:relative;height:280px}
+<!--改-->
+
+.ag7-bannerslide .slidebox li{display:block;position:absolute;width:100%;height:100%;left:0;top:0}
+.ag7-bannerslide a img{display:block;width:540px;height:280px}
+<!--定义a href超链接的图片大小-->
+<!--改-->
+
+.ag7-bannerslide .slideinfo{width:100%;position:absolute;left:0;bottom:0;z-index:10}
+<!--定义下面的备注框在切换窗口内的位置和等级-->
+
+.ag7-bannerslide .slidetitle{width:540px;color:#fff;background:rgba(0,0,0,.2)}
+<!--定义备注框的尺寸特征，rgba的a代表不透明系数-->
+<!--改-->
+
+.ag7-bannerslide .slidetitle h2{font-size:18px;height:40px;line-height:40px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0 15px}
+.ag7-bannerslide .slidelist{position:absolute;right:0;bottom:0;width:60px;height:280px;color:#fff;font-size:14px;background-color:#222}
+<!--定义标签栏-->
+<!--改-->
+
+.ag7-bannerslide .slidelist ul{position:absolute;z-index:10;width:100%;text-align:center}
+.ag7-bannerslide .slidelist ul li{width:100%;line-height:36px;margin:5px 0 10px;cursor:pointer}
+<!--定义各标签的框架，标签行距是36，首个标签的上下外边距5和10，第二个标签与第一个标签间距max(5,10)=10，所以外观上来看标签之间间距=36+10=46px，n个46px和mask下面的top值决定了默认情况下mask style的top值=n*46+top(original value)-->
+
+.ag7-bannerslide .slidelist .mask{width:70px;height:36px;position:absolute;left:-10px;top:5px;background:url(../images/mask_03.png) no-repeat center center;display:block}
+<!--定义选中色卡，引用色卡的链接，top值应与li的margin值一致，特别重要的是“main.js”文件中“eq(next).position().top+5”代码top所加的值“5”也要一致！！背景slidelist不重复刷新，上下居中，左右居中-->
+
