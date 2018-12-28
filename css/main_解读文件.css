@@ -9,12 +9,12 @@ caption,th{text-align:left}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
 
 .ag7-main{padding-top: 60px; width: 600px; margin: 0 auto; padding-bottom: 70px}
-<!-- .ag7-main 设置整个切换窗口的边框属性，padding 内边距, margin 外边距-->
+<!-- .ag7-main 设置整张画布的边框属性，padding 内边距定义画布内的绘制空间, margin 外边距-->
 <!--改-->
 
 .ag7-main .phone-index-banner{display:none}
 .ag7-bannerslide{position:relative;margin-bottom:50px}
-<!-- .ag7-bannerslide 设置这个切换窗口的外边距-->
+<!-- .ag7-bannerslide 设置这个切换窗口的位置，距离画布的padding-bottom上方50px作为切换窗口的空间-->
 <!--改-->
 
 .ag7-bannerslide .slidebox{position:relative;height:280px}
