@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*patemplate_content_right*/
+.patemplate_content_right{margin-left:0;}
+
+
+/* box*/
+.patemplatebox{width:100%; float:left; margin-bottom:13px;position:relative;}
+
+/*图片栏*/
+.patemplate_picbody{width:100%;float:left; }
+.patemplate_picbodyin{border:1px solid  #ffffff; }
+.patemplate_picbodyin{font-size:13px;padding:10px; overflow:hidden; text-align:left; background:#fff;  }
+.patemplate_title{ width:100%; float:left;font-size:20px;color:#666; font-weight:bold; padding-bottom:2px; text-align:center;}
+.papicturelayout {width: 100%;position: relative;margin:0px auto;}
+
+/*描述栏*/
+.patemplatebox_h1{ line-height:40px; height:40px;}
+.patemplatebox_h1{background-color:transparent;background-image:url(https://timage.pushauction.com/v3/DefaultTemplate/A16393/itemgallery_bg.jpg);background-repeat:repeat;background-position:top left;}
+.patemplatebox_h1{height:44px;line-height:44px!important;}
+.patemplatebox_h1{background-repeat:repeat-x!important}
+.patemplatebox_title{color:#ffffff;font-size:13px;height:44px;line-height:44px!important;} 
+.patemplatebox_title{padding:0; margin:0; font-size:13px; font-weight:bold; color:#002526; float:left; padding-left:15px; }
+.patemplatebox_body {width:100%;float:left; }
+.patemplatebox_bodyin{font-size:13px;padding:10px;overflow:hidden;text-align:left; background:#fff;border:none;}
+.patemplatebox_bodyin{ background-color:#ffffff; background-repeat:repeat;   background-position:top left;}
+.patemplatebox_bodyin{border:1px solid  #ffffff;  border-top:none;}
+.patemplatebox_bodyin img{width:100%}
+
+/*商家提出的细节*/
+.template_terms_contentin{border:1px solid  #ffffff;background-color:#ffffff;   border-top:none;}
+
+/* 条款 - 列表效果手风琴效果 */
+/*.patemplatebox_bodyin1{padding:0;border:none; background:#fff;} 删掉
+*/
+
+/*pa picture layout*/
+/*picture common*/
+.papicturelayout  > img { transition: all 0.5s;}
+
+
+.papicturelayout .big_preview_img img{display:none;}
+.papicturelayout #preview_id0:checked ~ .big_preview_img img:nth-child(1),
+.papicturelayout #preview_id1:checked ~ .big_preview_img img:nth-child(1),
+.papicturelayout #preview_id2:checked ~ .big_preview_img img:nth-child(2),
+.papicturelayout #preview_id3:checked ~ .big_preview_img img:nth-child(3),
+.papicturelayout #preview_id4:checked ~ .big_preview_img img:nth-child(4),
+.papicturelayout #preview_id5:checked ~ .big_preview_img img:nth-child(5),
+.papicturelayout #preview_id6:checked ~ .big_preview_img img:nth-child(6),
+.papicturelayout #preview_id7:checked ~ .big_preview_img img:nth-child(7),
+.papicturelayout #preview_id8:checked ~ .big_preview_img img:nth-child(8),
+.papicturelayout #preview_id9:checked ~ .big_preview_img img:nth-child(9),
+.papicturelayout #preview_id10:checked ~ .big_preview_img img:nth-child(10),
+.papicturelayout #preview_id11:checked ~ .big_preview_img img:nth-child(11),
+.papicturelayout #preview_id12:checked ~ .big_preview_img img:nth-child(12),
+.papicturelayout #preview_id13:checked ~ .big_preview_img img:nth-child(13),
+.papicturelayout #preview_id14:checked ~ .big_preview_img img:nth-child(14),
+.papicturelayout #preview_id15:checked ~ .big_preview_img img:nth-child(15),
+.papicturelayout #preview_id16:checked ~ .big_preview_img img:nth-child(16),
+.papicturelayout #preview_id17:checked ~ .big_preview_img img:nth-child(17),
+.papicturelayout #preview_id18:checked ~ .big_preview_img img:nth-child(18) { display: block;}
+
+.papicturelayout  .picturesmall label{ border:2px solid #ccc;}
+.papicturelayout  .picturesmall label{ display:block; 
+						  float:left; 
+						  transition: all 0.5s;
+						  opacity: 0.6;  
+						  margin-top:20px; 
+						  margin-bottom:0px;
+/*						  margin-bottom:10px;
+*/						  cursor:pointer;
+						  display:table-cell;
+						  vertical-align:middle;
+						  border-radius:10px; 
+						  background:#fff;
+}
+.papicturelayout  #preview_id0:checked ~ .picturesmall #small_label1, 
+.papicturelayout  #preview_id1:checked ~ .picturesmall #small_label1, 
+.papicturelayout  #preview_id2:checked ~ .picturesmall #small_label2, 
+.papicturelayout  #preview_id3:checked ~ .picturesmall #small_label3, 
+.papicturelayout  #preview_id4:checked ~ .picturesmall #small_label4, 
+.papicturelayout  #preview_id5:checked ~ .picturesmall #small_label5, 
+.papicturelayout  #preview_id6:checked ~ .picturesmall #small_label6, 
+.papicturelayout  #preview_id7:checked ~ .picturesmall #small_label7, 
+.papicturelayout  #preview_id8:checked ~ .picturesmall #small_label8, 
+.papicturelayout  #preview_id9:checked ~ .picturesmall #small_label9, 
+.papicturelayout  #preview_id10:checked ~ .picturesmall #small_label10, 
+.papicturelayout  #preview_id11:checked ~ .picturesmall #small_label11, 
+.papicturelayout  #preview_id12:checked ~ .picturesmall #small_label12,
+.papicturelayout  #preview_id13:checked ~ .picturesmall #small_label13, 
+.papicturelayout  #preview_id14:checked ~ .picturesmall #small_label14, 
+.papicturelayout  #preview_id15:checked ~ .picturesmall #small_label15, 
+.papicturelayout  #preview_id16:checked ~ .picturesmall #small_label16, 
+.papicturelayout  #preview_id17:checked ~ .picturesmall #small_label17, 
+.papicturelayout  #preview_id18:checked ~ .picturesmall #small_label18  { opacity: 1;border:3px solid #666;border-radius:10px; background:#fff;}
+
+.papicturelayout  input {display: none;}
+.papicturelayout  label img {display: block; vertical-align:middle }
+.papicturelayout  label:hover {color: #fff;background:#aaa; cursor:pointer;}
+/*鼠标放上去选择的效果*/
+
+.papicturelayout.layout1 .big_preview_img img{margin:0 auto; max-height:100%;max-width:100%;position:relative;top:50%;
+/* 增加图片阴影效果 */
+box-shadow:10px 10px 5px #aaa;
+-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
+.papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{ text-align:center;display:inline-block; margin-left:1px;margin-right:1px; }
+.papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label img{ margin:0 auto; max-height:100%;max-width:100%;position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
+
+@media (min-width: 240px) and (max-width: 480px){
+    .papicturelayout.layout1 .big_preview_img img{ width:100%!important;}
+    .papicturelayout.layout1 .big_preview_img div{ text-align:center; display:inline-block; width:100%; height:280px;}
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .big_preview_img{ margin-right:52px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .big_preview_img{margin-right:86px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .big_preview_img{margin-right:126px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall{width:42px;float:right;display:inline;padding-top:15px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall{width:86px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall{width:124px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{width:36px; height:36px; }
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall  label{width:36px; height:36px; }
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall label{width:32px; height:32px; }
+	.patemplate_title{ width:100%; float:left;font-size:13px;color:#666; font-weight:bold; padding-bottom:2px; text-align:center;}/*缩小字体，避免转行后太大*/
+
+}
+
+@media (min-width: 480px) and (max-width: 515px) {
+    .papicturelayout.layout1 .big_preview_img div{ text-align:center; display:inline-block; width:100%; height:360px;}
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .big_preview_img{ margin-right:80px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .big_preview_img{margin-right:166px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .big_preview_img{margin-right:216px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall{width:70px;float:right;display:inline;padding-top:5px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall{width:164px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall{width:210px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{ width:62px; height:62px; }
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall  label{width:68px; height:68px; }
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall label{width:56px; height:56px; }
+	.patemplate_title{ width:100%; float:left;font-size:15px;color:#666; font-weight:bold; padding-bottom:2px; text-align:center;}/*缩小字体，避免转行后太大*/
+}
+
+@media (min-width: 515px) and (max-width: 700px) {
+    .papicturelayout.layout1 .big_preview_img div{ text-align:center; display:inline-block; width:100%; height:360px;}
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .big_preview_img{ margin-right:80px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .big_preview_img{margin-right:166px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .big_preview_img{margin-right:216px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall{width:70px;float:right;display:inline;padding-top:5px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall{width:164px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall{width:210px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{ width:62px; height:62px; }
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall  label{width:68px; height:68px; }
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall label{width:56px; height:56px; }
+	.papicturelayout {width: 100%;}
+}
+
+@media (min-width: 700px) and (max-width: 810px){
+    .papicturelayout.layout1 .big_preview_img div{ text-align:center; display:inline-block; width:100%; height:440px;}
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .big_preview_img{ margin-right:109px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .big_preview_img{margin-right:196px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .big_preview_img{margin-right:285px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall{width:84px;float:right;display:inline;padding-top:5px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall{width:194px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall{width:284px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{ width:78px; height:78px; }
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall  label{width:88px; height:88px; }
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall label{width:86px; height:86px; }
+	.papicturelayout {width: 100%;}
+
+}
+
+                                              
+@media (min-width: 810px) and (max-width: 895px){
+    .papicturelayout.layout1 .big_preview_img div{ text-align:center; display:inline-block; width:100%; height:500px;}
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .big_preview_img{ margin-right:109px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .big_preview_img{margin-right:196px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .big_preview_img{margin-right:285px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall{width:94px;float:right;display:inline;padding-top:20px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall{width:194px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall{width:284px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{ width:88px; height:88px; }
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall  label{width:88px; height:88px; }
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall label{width:86px; height:86px; }
+/*	.papicturelayout {width: 865px;} 在宽屏里面限定width以保持与label靠近，不限定的话，big_preview_img会随着窗口自动缩放； 
+	label占到div的11%宽，据此确定后续media的label宽；
+	在chrome中调节窗口宽度，直到label与big_preview_img div叠了，记录下此时的窗口宽度以及图片的高度，分别作为media的max-width值和下次big_preview_img div的高度；
+*/
+
+}
+
+@media (min-width: 895px){
+    .papicturelayout.layout1 .big_preview_img div{ text-align:center; display:inline-block; width:100%; height:500px;}
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .big_preview_img{ margin-right:99px;}
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .big_preview_img{margin-right:196px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .big_preview_img{margin-right:285px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall{width:94px;float:right;display:inline;padding-top:10px;}/*padding-top值*2+4*（label高+margin-top值20）=big_preview_img div的高*/
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall{width:194px;}
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall{width:284px;}
+
+    .papicturelayout.layout1 > input:nth-of-type(1) ~ .picturesmall  label{ width:88px; height:88px; }
+    .papicturelayout.layout1 > input:nth-of-type(7) ~ .picturesmall  label{width:88px; height:88px; }
+    .papicturelayout.layout1 > input:nth-of-type(13) ~ .picturesmall label{width:86px; height:86px; }
+
+	.papicturelayout {width: 865px;}/*eBay在100%窗口大小下，商品描述栏的宽度为867px，所以用略小的宽865px充满*/
+
+    #terms #patemplate_termscontent_1, 
+    #terms #patemplate_termscontent_2, 
+    #terms #patemplate_termscontent_3, 
+    #terms #patemplate_termscontent_4,
+    #terms #patemplate_termscontent_5{ width:100%; float:left;}
+}
